@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQ_INVOICE">
+  <DataContextMoniker Name="/LINQ_INVOICEDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8b0ac9c6-8557-4528-8096-0ea9e1362f97" isExpanded="false" absoluteBounds="0.5, 0.875, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_INVOICEDataContext/Coffee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ece1b9ff-3389-4bde-a2f7-017c029ebc77" absoluteBounds="0.51500000000000012, 1.335, 1.9700000000000002, 1.1350249970952668" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07d4d48a-b5fe-43cc-be14-9f37c5922171" isExpanded="false" absoluteBounds="2.75, 0.875, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_INVOICEDataContext/CoffeeView" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ba3c181-3849-455a-a098-b1661ce58aa3" absoluteBounds="2.765, 1.335, 1.9700000000000002, 1.1350249970952668" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
