@@ -1,0 +1,60 @@
+.link-wrapper {
+    list-style-type: none;
+    margin: 29px auto;
+    padding: 0px;
+    text-align: center;
+}
+
+.link-wrapper li {
+    display: inline-block;
+}
+
+ul.link-wrapper li a {
+    padding: 21px 48px;
+    display: block;
+    color: green;
+    text-decoration: none;
+    border-bottom: 3px solid #222;
+    font-size: 20px;
+}
+
+.link-wrapper li a:hover {
+    color: rgb(9, 9, 114);
+}
+
+.link-wrapper li a.active-link {
+    color: rgb(9, 9, 114);
+    border-bottom: rgb(9, 9, 114);
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content {
+    background-color: darkseagreen;
+    padding: 7px 53px;
+    max-width: 1070px;
+    margin: 0px auto 50px;
+    display: none;
+}
+
+form#border {
+    margin: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+button#save {
+    margin-left: 559px;
+    width: 200px;
+}
+
+div#price {
+    margin: 20px;
+}
+
+div#name {
+    margin: 20px;
+}
