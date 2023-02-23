@@ -68,17 +68,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\tab.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="JavaScript\Detail.js" />
+    <Content Include="JavaScript\Save.js" />
+    <Content Include="JavaScript\tab.js" />
+    <Content Include="jQuery\jquery.js" />
     <Content Include="Web.config" />
+    <Content Include="Coffee.aspx" />
+    <Content Include="CoffeeDetail.aspx" />
+    <Content Include="NewCoffee.aspx" />
     <Content Include="WebService\WebService_Coffee.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Controller\Controller_Coffee.cs" />
     <Compile Include="LINQ\LINQ_INVOICE.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>LINQ_INVOICE.dbml</DependentUpon>
     </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Coffee.aspx.cs">
+      <DependentUpon>Coffee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coffee.aspx.designer.cs">
+      <DependentUpon>Coffee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeDetail.aspx.cs">
+      <DependentUpon>CoffeeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoffeeDetail.aspx.designer.cs">
+      <DependentUpon>CoffeeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCoffee.aspx.cs">
+      <DependentUpon>NewCoffee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCoffee.aspx.designer.cs">
+      <DependentUpon>NewCoffee.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebService\WebService_Coffee.asmx.cs">
       <DependentUpon>WebService_Coffee.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -90,7 +138,12 @@
       <LastGenOutput>LINQ_INVOICE.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="MasterPage.Master" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,7 +159,12 @@
       <DependentUpon>LINQ_INVOICE.dbml</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
